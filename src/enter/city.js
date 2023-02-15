@@ -3,7 +3,7 @@
  * @Author: peiqf
  * @Date: 2023-02-09 14:23:41
  * @LastEditors: peiqf
- * @LastEditTime: 2023-02-15 15:03:38
+ * @LastEditTime: 2023-02-15 15:15:04
  */
 import * as THREE from 'three'
 import TWEEN from '@tweenjs/tween.js'
@@ -177,7 +177,7 @@ export class City {
     }
   }
   start(delta) {
-    // 雪花下落
+    // 雪花下落...
     for (const key in this.effect) {
       this.effect1.animation()
       this.effect[key] && this.effect[key].animation()
